@@ -1,5 +1,7 @@
+import "./styles/index.css";
+
 function App() {
-  return <>hello 3js</>;
+  return <></>;
 }
 
 export default App;
