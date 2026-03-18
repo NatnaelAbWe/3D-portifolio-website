@@ -1,5 +1,11 @@
+import "./styles/index.css";
+
 function App() {
-  return <>hello 3js</>;
+  return (
+    <>
+      <h1>hello 3js</h1>
+    </>
+  );
 }
 
 export default App;
