@@ -1,4 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-primary: #050816;
+  --color-secondary: #aaa6c3;
+  --color-tertiary: #151030;
+  --color-black-100: #100d25;
+  --color-black-200: #090325;
+  --color-white-100: #f3f3f3;
+
+  /* box shadow */
+  --shadow-card: 0px 35px 120px -15px #211e35;
+
+  /* Custom Breakpoints */
+  --breakpoint-xs: 450px;
+
+  /* backgorund Images */
+
+  --background-image-hero-pattern: url("/src/assets/herobg.png");
+}
 
 * {
   margin: 0;
@@ -6,7 +27,7 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light dark;
 }
 
 .hash-span {
