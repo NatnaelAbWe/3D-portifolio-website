@@ -27,7 +27,7 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: light dark;
+  color-scheme: light;
 }
 
 .hash-span {

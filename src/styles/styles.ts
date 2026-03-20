@@ -1,6 +1,6 @@
-import type { Styles } from "../style";
+import type { Styles } from "../types/style";
 
-const styles: Styles = {
+const styles: Styless = {
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",
   padding: "sm:px-16 px-6 sm:py-16 py-10",
