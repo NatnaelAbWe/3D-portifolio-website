@@ -7,7 +7,7 @@ import {
 import { Hero } from "./Hero";
 import { Navbar } from "./Navbar";
 import About from "./About";
-import { Tech } from "./Tech";
+import Tech from "./Tech";
 import Experiance from "./Experiance";
 import { Work } from "./Work";
 import { Feedbacks } from "./Feedbacks";
