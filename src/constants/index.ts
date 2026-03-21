@@ -54,15 +54,15 @@ const services: Service[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "MERN Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "FrontEnd Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI/UX Developer",
     icon: creator,
   },
 ];
