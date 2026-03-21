@@ -10,8 +10,8 @@ import About from "./About";
 import Tech from "./Tech";
 import Experiance from "./Experiance";
 import Work from "./Work";
-import { Feedbacks } from "./Feedbacks";
-import { Contact } from "./Contact";
+import Feedbacks from "./Feedbacks";
+import Contact from "./Contact";
 import { CanvasLoader } from "./Loader";
 
 export {
