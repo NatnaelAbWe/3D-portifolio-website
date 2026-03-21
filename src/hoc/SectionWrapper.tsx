@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles/styles";
 import { staggerContainer } from "../utils/motion";
 
-export const StartWrapper = (Component, idName) => {
+const StartWrapper = (Component, idName: string) =>
   function HOC() {
     return (
       <motion.section
@@ -10,6 +10,7 @@ export const StartWrapper = (Component, idName) => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
+        className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
       >
         <span className="hash-span" id={idName}>
           &nbsp;
@@ -17,5 +18,5 @@ export const StartWrapper = (Component, idName) => {
         <Component />
       </motion.section>
     );
-  }
-};
+  };
+export default StartWrapper;
